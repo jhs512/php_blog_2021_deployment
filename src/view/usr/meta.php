@@ -3,7 +3,7 @@ if ( !isset($meta) ) {
   $meta = [];
 }
 
-$meta['siteName'] = "BBB BLOG";
+$meta['siteName'] = "CENT BLOG";
 $meta['siteCanonicalUrl'] = $_SERVER['REQUEST_URI'];
 $meta['siteKeywords'] = "IT, Java, PHP, HTML, CSS, Javascript, MySQL, Linux";
 
@@ -12,11 +12,11 @@ if ( !isset($meta['pageGenDate']) ) {
 }
 
 if ( !isset($meta['siteSubject']) ) {
-  $meta['siteSubject'] = "IT 전문 블로그 플랫폼, BBB BLOG";
+  $meta['siteSubject'] = "IT 전문 블로그 CENT BLOG";
 }
 
 if ( !isset($meta['siteDescription']) ) {
-  $meta['siteDescription'] = "IT 전문 블로그 플랫폼, BBB BLOG 입니다. 누구나 멋진 나만의 IT 블로그를 만들 수 있습니다.";
+  $meta['siteDescription'] = "IT 전문 블로그 CENT BLOG 입니다. 열심히 살겠습니다!";
 }
 
 if ( !isset($meta['og:title']) ) {
