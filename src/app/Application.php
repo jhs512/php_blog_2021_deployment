@@ -27,7 +27,7 @@ class Application
 
     function getEnvCode(): string
     {
-        if ($_SERVER['DOCUMENT_ROOT'] == '/web/2021_04_full/site00/public') {
+        if ($_SERVER['DOCUMENT_ROOT'] == '/web/site5/public') {
             return 'prod';
         }
 
