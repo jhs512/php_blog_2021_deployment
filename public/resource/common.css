@@ -31,3 +31,7 @@ html > body, html > body .tui-editor-contents {
 .top-bar {
   position: fixed;
 }
+
+.top-bar, .bottom-bar {
+  background-color:#343434;
+}
