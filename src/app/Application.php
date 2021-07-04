@@ -36,7 +36,7 @@ class Application
 
     function getProdSiteDomain()
     {
-        return "bbb.oa.gg";
+        return "cent1.oa.gg";
     }
 
     public function getDbConnectionByEnv(): \mysqli
@@ -47,12 +47,12 @@ class Application
             $dbHost = "127.0.0.1";
             $dbId = "sbsst";
             $dbPw = "sbs123414";
-            $dbName = "php_blog_2021";
+            $dbName = "site5";
         } else {
             $dbHost = "127.0.0.1";
-            $dbId = "st__2021_04_full__site00";
-            $dbPw = "1234";
-            $dbName = "st__2021_04_full__site00";
+            $dbId = "siteLocal5";
+            $dbPw = "sbslocal123414";
+            $dbName = "site5";
         }
 
         $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName) or die("DB CONNECTION ERROR");
